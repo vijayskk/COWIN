@@ -1,0 +1,11 @@
+.select{
+    width: 500px;
+}
+button{
+    color: blue;
+}
+.banner-img{
+    height: 100vh;
+    width: 50%;
+    border:2PX solid blue;
+}
