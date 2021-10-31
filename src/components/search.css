@@ -1,0 +1,16 @@
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    height: 400px;
+    width: 100%;
+}
+.selector{
+    /* max-width: 500px; */
+    width: 400px;
+    /* min-width: 500px; */
+    margin-left: 0px;
+    height: 29px;
+    border-radius: 2px;
+}

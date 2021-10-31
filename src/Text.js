@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './text.css'
+import image from "./images/vaccine.jpg"
 
 
 function Text() {
@@ -63,7 +64,7 @@ function Text() {
                         {
                         states.map((obj)=>{
                         return(
-                        <option className='opt' >{obj.state_name}dddd</option>
+                        <option className='opt' >{obj.state_name}</option>
                         )
                       })
                         }
@@ -71,7 +72,7 @@ function Text() {
                         </div>
                         
                         {/* <img className='banner-img' src="https://image.freepik.com/free-vector/flat-coronavirus-vaccination-campaign_23-2148969469.jpg" alt="" /> */}
-                        <img className='banner-img' src="../images/vaccine.jpg" alt="" />
+                        <img className='banner-img' src={image} alt="" />
                         
 
                   

@@ -1,0 +1,15 @@
+.search{
+    height: 60px;
+    background-color: aqua;
+}
+select{
+    width: 0%;
+    height: 30px;
+    margin-left: 50px;
+    border: none;
+    outline: none;
+    align-self: center;
+}
+/* option{
+    width: 200px;
+} */
